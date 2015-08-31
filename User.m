@@ -1,8 +1,8 @@
 %% Esta rutina filtra los datos de la base de datos para seleccionar los de un usuario en particular a partir de su identificador
 
-function User= User (LongId)
+function User = User (LongId)
 
-
+addpath(genpath('/home/ionatan/Matlab/jsonlab'));
 dbOriginal = CleanDb ('db.json');
 db = struct;
 
