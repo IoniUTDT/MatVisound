@@ -183,9 +183,9 @@ function ReadDb(opt1)
     
     
     %% Guarda los datos relevantes
-    save ('dbProcesada', 'USERS', 'listaUsuariosId', 'levelsInstance')
-    
+    save ('dbProcesada', 'USERS', 'listaUsuariosId', 'levelsInstances', 'touchInstances', 'soundInstances', 'trialsInstances')    
     clear all
+    load ('dbProcesada')
     
     
 
