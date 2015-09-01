@@ -97,7 +97,7 @@ function ReadDb(opt1)
     
     %% A partir de aca ordena la info de la base de datos en una estructura organizada tipo tabla separando users levels y trials
     
-    logsInstances=struct([]);
+    levelsInstances.idUser=struct([]);
     
     % Primero procesa la info en los logs donde esta la info de los
     % usuarios para crear todas las entradas que correspondan
