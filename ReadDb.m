@@ -97,7 +97,7 @@ function ReadDb(opt1)
     
     %% A partir de aca ordena la info de la base de datos en una estructura organizada tipo tabla separando users levels y trials
     
-    USERS=struct([]);
+    logsInstances=struct([]);
     
     % Primero procesa la info en los logs donde esta la info de los
     % usuarios para crear todas las entradas que correspondan
@@ -109,28 +109,28 @@ function ReadDb(opt1)
         unlog=dbLimpia.logs{indlog};
         fnames=fieldnames(unlog);
         for indfn=1:length(fnames)
-            USERS(indlog).(fnames{indfn})=unlog.(fnames{indfn});
+            logsInstances(indlog).(fnames{indfn})=unlog.(fnames{indfn});
         end
     end 
 
     %% Ahora unificamos registros donde hay un usuario repetido
     
-    % No esta muy claro que esto sea util.
-    
-    USERSunificados = struct([]);
-    listaUsuariosId=unique([USERS.userID]);
-    % Crea la lista de usuarios
-    for i=1:length(listaUsuariosId)
-        USERSunificados(i).Id=listaUsuariosId(i);
-    end
-    %% Carga los id de la sessiones
-    USERSunificados(1).SessionsIds = [];
-    for i=1:length(USERSunificados)
-        index = USERSunificados(i).Id==[USERS.userID];
-        USERSunificados(i).SessionsIds = [USERS(index).id];
-    end
-    
-    
+%     No esta muy claro que esto sea util.
+%     
+%     USERSunificados = struct([]);
+%     listaUsuariosId=unique([USERS.userID]);
+%     Crea la lista de usuarios
+%     for i=1:length(listaUsuariosId)
+%         USERSunificados(i).Id=listaUsuariosId(i);
+%     end
+%     %% Carga los id de la sessiones
+%     USERSunificados(1).SessionsIds = [];
+%     for i=1:length(USERSunificados)
+%         index = USERSunificados(i).Id==[USERS.userID];
+%         USERSunificados(i).SessionsIds = [USERS(index).id];
+%     end
+%     
+%     
     %% Limpia y unifica la info de levels
     
     levelsInstances = struct;
@@ -158,6 +158,8 @@ function ReadDb(opt1)
             trialsInstances(indTrialLog).(fnames{indfn})=unTrialLog.(fnames{indfn});
         end
     end 
+    
+    %% Repite la operacion para leer dentro de cada info del trial la info de los toques y los sounds
     for indTrialLog=1:length(trialsInstances)
         % carga los toques en el registro de toques
         for indTouchLog=1:length(trialsInstances(indTrialLog).touchLog)
@@ -183,9 +185,8 @@ function ReadDb(opt1)
     
     
     %% Guarda los datos relevantes
-    save ('dbProcesada', 'USERS', 'listaUsuariosId', 'levelsInstances', 'touchInstances', 'soundInstances', 'trialsInstances')    
-    clear all
-    load ('dbProcesada')
+    save ('dbProcesada', 'logsInstances', 'levelsInstances', 'touchInstances', 'soundInstances', 'trialsInstances')    
+
     
     
 
