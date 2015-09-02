@@ -90,5 +90,11 @@ for iTrial=1:length(trials)
     touchs = touchInstances([touchInstances.trialInstance]==trial.trialInstance);
     disp (['Se han encontrado ',int2str(length(touchs)),' toques para procesar en la instancia de trial ',f(trial.trialInstance),' trial id: ',int2str(trial.trialId)])
     
+    for iTouch=1:length(touchs)
+        touch=touchs(iTouch);
+    end
+    
+    %% 
+    
 end
 
