@@ -1,0 +1,3237 @@
+{
+  "Status": [
+    "on"
+  ],
+  "JsonSessionHistory": [
+    {
+      "history": [
+        {
+          "userName": "Unnamed",
+          "userID": 1441647243327,
+          "id": 1441647661921
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "TrialLogHistory": [
+    {
+      "history": [
+        {
+          "categoriasElementos": [
+            "Siguiente",
+            "Texto"
+          ],
+          "categoriasRta": [
+            "Siguiente",
+            "Texto"
+          ],
+          "distribucionEnPantalla": "LINEALx1",
+          "idRtaCorrecta": {
+            "id": 4,
+            "resourceVersion": 110
+          },
+          "userName": "Unnamed",
+          "touchLog": [
+            {
+              "categorias": [
+                "Siguiente",
+                "Texto"
+              ],
+              "idResourceTouched": {
+                "id": 4,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [],
+              "trialInstance": 1441647664346,
+              "touchInstance": 1441647665083,
+              "timeLastStartSound": -1,
+              "timeLastStopSound": -1,
+              "timeSinceTrialStarts": 0.76345825,
+              "trialId": 1
+            }
+          ],
+          "resourcesIdSelected": [
+            {
+              "id": 4,
+              "resourceVersion": 110
+            }
+          ],
+          "resourcesIdSort": [
+            4
+          ],
+          "tipoDeTrial": "ENTRENAMIENTO",
+          "timeExitTrial": 1441647665083,
+          "sessionId": 1441647661921,
+          "userId": 1441647243327,
+          "trialInstance": 1441647664346,
+          "timeTrialStart": 1441647664347,
+          "levelInstance": 1441647664330,
+          "trialCompleted": true,
+          "trialExitRecorded": true,
+          "trialId": 1,
+          "timeStopTrialInLevel": 0.7800232,
+          "trialsInLevel": 8,
+          "timeInTrial": 0.7800232
+        }
+      ],
+      "id": 1
+    },
+    {
+      "history": [
+        {
+          "categoriasElementos": [
+            "Lineas",
+            "Lineax1",
+            "Tutorial",
+            "Tutorial",
+            "Lineas",
+            "Lineax1",
+            "Lineas",
+            "Lineax1",
+            "Tutorial",
+            "Tutorial",
+            "Lineas",
+            "Lineax1",
+            "Lineas",
+            "Lineax1",
+            "Tutorial",
+            "Tutorial",
+            "Lineas",
+            "Lineax1"
+          ],
+          "categoriasRta": [
+            "Lineas",
+            "Lineax1",
+            "Tutorial"
+          ],
+          "distribucionEnPantalla": "BILINEALx6",
+          "idRtaCorrecta": {
+            "id": 25,
+            "resourceVersion": 110
+          },
+          "userName": "Unnamed",
+          "touchLog": [
+            {
+              "categorias": [
+                "Tutorial",
+                "Lineas",
+                "Lineax1"
+              ],
+              "idResourceTouched": {
+                "id": 26,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [],
+              "trialInstance": 1441647665268,
+              "touchInstance": 1441647679527,
+              "timeLastStartSound": -1,
+              "timeLastStopSound": -1,
+              "timeSinceTrialStarts": 14.429002,
+              "trialId": 2
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax1",
+                "Tutorial"
+              ],
+              "idResourceTouched": {
+                "id": 22,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                26
+              ],
+              "trialInstance": 1441647665268,
+              "touchInstance": 1441647680212,
+              "soundInstance": 1441647679527,
+              "timeLastStartSound": 14.429002,
+              "timeLastStopSound": 15.11026,
+              "timeSinceTrialStarts": 15.11026,
+              "trialId": 2,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Tutorial",
+                "Lineas",
+                "Lineax1"
+              ],
+              "idResourceTouched": {
+                "id": 28,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                26,
+                22
+              ],
+              "trialInstance": 1441647665268,
+              "touchInstance": 1441647680974,
+              "soundInstance": 1441647680212,
+              "timeLastStartSound": 15.11026,
+              "timeLastStopSound": 15.875,
+              "timeSinceTrialStarts": 15.875,
+              "trialId": 2,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax1",
+                "Tutorial"
+              ],
+              "idResourceTouched": {
+                "id": 25,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                26,
+                22,
+                28
+              ],
+              "trialInstance": 1441647665268,
+              "touchInstance": 1441647681655,
+              "soundInstance": 1441647680974,
+              "timeLastStartSound": 15.875,
+              "timeLastStopSound": 16.557173,
+              "timeSinceTrialStarts": 16.557173,
+              "trialId": 2,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax1",
+                "Tutorial"
+              ],
+              "idResourceTouched": {
+                "id": 23,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                26,
+                22,
+                28,
+                25
+              ],
+              "trialInstance": 1441647665268,
+              "touchInstance": 1441647681921,
+              "soundInstance": 1441647681655,
+              "timeLastStartSound": 16.557173,
+              "timeLastStopSound": 16.821177,
+              "timeSinceTrialStarts": 16.821177,
+              "trialId": 2,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Tutorial",
+                "Lineas",
+                "Lineax1"
+              ],
+              "idResourceTouched": {
+                "id": 27,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                26,
+                22,
+                28,
+                25,
+                23
+              ],
+              "trialInstance": 1441647665268,
+              "touchInstance": 1441647682120,
+              "soundInstance": 1441647681921,
+              "timeLastStartSound": 16.821177,
+              "timeLastStopSound": 17.020418,
+              "timeSinceTrialStarts": 17.020418,
+              "trialId": 2,
+              "numberOfSoundLoops": 1
+            }
+          ],
+          "resourcesIdSelected": [
+            {
+              "id": 26,
+              "resourceVersion": 110
+            },
+            {
+              "id": 22,
+              "resourceVersion": 110
+            },
+            {
+              "id": 28,
+              "resourceVersion": 110
+            },
+            {
+              "id": 25,
+              "resourceVersion": 110
+            },
+            {
+              "id": 23,
+              "resourceVersion": 110
+            },
+            {
+              "id": 27,
+              "resourceVersion": 110
+            }
+          ],
+          "resourcesIdSort": [
+            26,
+            22,
+            28,
+            27,
+            23,
+            25
+          ],
+          "tipoDeTrial": "ENTRENAMIENTO",
+          "soundLog": [
+            {
+              "categorias": [
+                "Tutorial",
+                "Lineas",
+                "Lineax1"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                26
+              ],
+              "soundId": {
+                "id": 26,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647665268,
+              "soundInstance": 1441647679527,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 14.429002,
+              "stopByUnselect": true,
+              "stopTime": 15.11026,
+              "trialId": 2,
+              "numberOfSoundInTrial": 1
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax1",
+                "Tutorial"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                26,
+                22
+              ],
+              "soundId": {
+                "id": 22,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647665268,
+              "soundInstance": 1441647680212,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 15.11026,
+              "stopByUnselect": true,
+              "stopTime": 15.875,
+              "trialId": 2,
+              "numberOfSoundInTrial": 2
+            },
+            {
+              "categorias": [
+                "Tutorial",
+                "Lineas",
+                "Lineax1"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                26,
+                22,
+                28
+              ],
+              "soundId": {
+                "id": 28,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647665268,
+              "soundInstance": 1441647680974,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 15.875,
+              "stopByUnselect": true,
+              "stopTime": 16.557173,
+              "trialId": 2,
+              "numberOfSoundInTrial": 3
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax1",
+                "Tutorial"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                26,
+                22,
+                28,
+                25
+              ],
+              "soundId": {
+                "id": 25,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647665268,
+              "soundInstance": 1441647681655,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 16.557173,
+              "stopByUnselect": true,
+              "stopTime": 16.821177,
+              "trialId": 2,
+              "numberOfSoundInTrial": 4
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax1",
+                "Tutorial"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                26,
+                22,
+                28,
+                25,
+                23
+              ],
+              "soundId": {
+                "id": 23,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647665268,
+              "soundInstance": 1441647681921,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 16.821177,
+              "stopByUnselect": true,
+              "stopTime": 17.020418,
+              "trialId": 2,
+              "numberOfSoundInTrial": 5
+            },
+            {
+              "categorias": [
+                "Tutorial",
+                "Lineas",
+                "Lineax1"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                26,
+                22,
+                28,
+                25,
+                23,
+                27
+              ],
+              "soundId": {
+                "id": 27,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647665268,
+              "soundInstance": 1441647682120,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 17.020418,
+              "stopByUnselect": true,
+              "stopTime": 17.703297,
+              "trialId": 2,
+              "numberOfSoundInTrial": 6
+            }
+          ],
+          "timeExitTrial": 1441647682805,
+          "sessionId": 1441647661921,
+          "userId": 1441647243327,
+          "trialInstance": 1441647665268,
+          "timeTrialStart": 1441647665274,
+          "levelInstance": 1441647664330,
+          "trialCompleted": true,
+          "trialExitRecorded": true,
+          "trialId": 2,
+          "timeStopTrialInLevel": 18.500158,
+          "trialsInLevel": 8,
+          "timeStartTrialInLevel": 0.7800232,
+          "indexOfTrialInLevel": 1,
+          "timeInTrial": 17.72013
+        }
+      ],
+      "id": 2
+    },
+    {
+      "history": [
+        {
+          "categoriasElementos": [
+            "Lineas",
+            "Lineax1",
+            "Tutorial",
+            "Lineas",
+            "Lineax1",
+            "Tutorial",
+            "Lineas",
+            "Lineax1",
+            "Tutorial"
+          ],
+          "categoriasRta": [
+            "Lineas",
+            "Lineax1",
+            "Tutorial"
+          ],
+          "distribucionEnPantalla": "LINEALx3",
+          "idRtaCorrecta": {
+            "id": 36,
+            "resourceVersion": 110
+          },
+          "userName": "Unnamed",
+          "touchLog": [
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax1",
+                "Tutorial"
+              ],
+              "idResourceTouched": {
+                "id": 36,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [],
+              "trialInstance": 1441647682875,
+              "touchInstance": 1441647683549,
+              "timeLastStartSound": -1,
+              "timeLastStopSound": -1,
+              "timeSinceTrialStarts": 0.73093873,
+              "trialId": 3
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax1",
+                "Tutorial"
+              ],
+              "idResourceTouched": {
+                "id": 29,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                36
+              ],
+              "trialInstance": 1441647682875,
+              "touchInstance": 1441647683899,
+              "soundInstance": 1441647683550,
+              "timeLastStartSound": 0.73093873,
+              "timeLastStopSound": 1.0791078,
+              "timeSinceTrialStarts": 1.0791078,
+              "trialId": 3,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax1",
+                "Tutorial"
+              ],
+              "idResourceTouched": {
+                "id": 36,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                36,
+                29
+              ],
+              "trialInstance": 1441647682875,
+              "touchInstance": 1441647684215,
+              "soundInstance": 1441647683899,
+              "timeLastStartSound": 1.0791078,
+              "timeLastStopSound": 1.3949893,
+              "timeSinceTrialStarts": 1.3949893,
+              "trialId": 3,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax1",
+                "Tutorial"
+              ],
+              "idResourceTouched": {
+                "id": 29,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                36,
+                29,
+                36
+              ],
+              "trialInstance": 1441647682875,
+              "touchInstance": 1441647684564,
+              "soundInstance": 1441647684215,
+              "timeLastStartSound": 1.3949893,
+              "timeLastStopSound": 1.7447084,
+              "timeSinceTrialStarts": 1.7447084,
+              "trialId": 3,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax1",
+                "Tutorial"
+              ],
+              "idResourceTouched": {
+                "id": 36,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                36,
+                29,
+                36,
+                29
+              ],
+              "trialInstance": 1441647682875,
+              "touchInstance": 1441647684797,
+              "soundInstance": 1441647684564,
+              "timeLastStartSound": 1.7447084,
+              "timeLastStopSound": 1.9768862,
+              "timeSinceTrialStarts": 1.9768862,
+              "trialId": 3,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax1",
+                "Tutorial"
+              ],
+              "idResourceTouched": {
+                "id": 41,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                36,
+                29,
+                36,
+                29,
+                36
+              ],
+              "trialInstance": 1441647682875,
+              "touchInstance": 1441647685899,
+              "soundInstance": 1441647684797,
+              "timeLastStartSound": 1.9768862,
+              "timeLastStopSound": 3.0753176,
+              "timeSinceTrialStarts": 3.0753176,
+              "trialId": 3,
+              "numberOfSoundLoops": 1
+            }
+          ],
+          "resourcesIdSelected": [
+            {
+              "id": 36,
+              "resourceVersion": 110
+            },
+            {
+              "id": 29,
+              "resourceVersion": 110
+            },
+            {
+              "id": 36,
+              "resourceVersion": 110
+            },
+            {
+              "id": 29,
+              "resourceVersion": 110
+            },
+            {
+              "id": 36,
+              "resourceVersion": 110
+            },
+            {
+              "id": 41,
+              "resourceVersion": 110
+            }
+          ],
+          "resourcesIdSort": [
+            36,
+            29,
+            41
+          ],
+          "tipoDeTrial": "ENTRENAMIENTO",
+          "soundLog": [
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax1",
+                "Tutorial"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                36
+              ],
+              "soundId": {
+                "id": 36,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647682875,
+              "soundInstance": 1441647683550,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 0.73093873,
+              "stopByUnselect": true,
+              "stopTime": 1.0791078,
+              "trialId": 3,
+              "numberOfSoundInTrial": 1
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax1",
+                "Tutorial"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                36,
+                29
+              ],
+              "soundId": {
+                "id": 29,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647682875,
+              "soundInstance": 1441647683899,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 1.0791078,
+              "stopByUnselect": true,
+              "stopTime": 1.3949893,
+              "trialId": 3,
+              "numberOfSoundInTrial": 2
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax1",
+                "Tutorial"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                36,
+                29,
+                36
+              ],
+              "soundId": {
+                "id": 36,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647682875,
+              "soundInstance": 1441647684215,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 1.3949893,
+              "stopByUnselect": true,
+              "stopTime": 1.7447084,
+              "trialId": 3,
+              "numberOfSoundInTrial": 3
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax1",
+                "Tutorial"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                36,
+                29,
+                36,
+                29
+              ],
+              "soundId": {
+                "id": 29,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647682875,
+              "soundInstance": 1441647684564,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 1.7447084,
+              "stopByUnselect": true,
+              "stopTime": 1.9768862,
+              "trialId": 3,
+              "numberOfSoundInTrial": 4
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax1",
+                "Tutorial"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                36,
+                29,
+                36,
+                29,
+                36
+              ],
+              "soundId": {
+                "id": 36,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647682875,
+              "soundInstance": 1441647684797,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 1.9768862,
+              "stopByUnselect": true,
+              "stopTime": 3.0753176,
+              "trialId": 3,
+              "numberOfSoundInTrial": 5
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax1",
+                "Tutorial"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                36,
+                29,
+                36,
+                29,
+                36,
+                41
+              ],
+              "soundId": {
+                "id": 41,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647682875,
+              "soundInstance": 1441647685899,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 3.0753176,
+              "stopByUnselect": true,
+              "stopTime": 3.7071347,
+              "trialId": 3,
+              "numberOfSoundInTrial": 6
+            }
+          ],
+          "timeExitTrial": 1441647686526,
+          "sessionId": 1441647661921,
+          "userId": 1441647243327,
+          "trialInstance": 1441647682875,
+          "timeTrialStart": 1441647682876,
+          "levelInstance": 1441647664330,
+          "trialCompleted": true,
+          "trialExitRecorded": true,
+          "trialId": 3,
+          "timeStopTrialInLevel": 22.207298,
+          "trialsInLevel": 8,
+          "timeStartTrialInLevel": 18.500158,
+          "indexOfTrialInLevel": 2,
+          "timeInTrial": 3.7071347
+        }
+      ],
+      "id": 3
+    },
+    {
+      "history": [
+        {
+          "categoriasElementos": [
+            "Tutorial",
+            "Lineas",
+            "Lineax1",
+            "Lineas",
+            "Lineax1",
+            "Tutorial",
+            "Tutorial",
+            "Lineas",
+            "Lineax1",
+            "Tutorial",
+            "Lineas",
+            "Lineax1",
+            "Lineas",
+            "Lineax1",
+            "Tutorial",
+            "Lineas",
+            "Lineax1",
+            "Tutorial",
+            "Lineas",
+            "Lineax1",
+            "Tutorial"
+          ],
+          "categoriasEstimulo": [
+            "Tutorial",
+            "Lineas",
+            "Lineax1"
+          ],
+          "categoriasRta": [
+            "Tutorial",
+            "Lineas",
+            "Lineax1"
+          ],
+          "distribucionEnPantalla": "BILINEALx6",
+          "idRtaCorrecta": {
+            "id": 27,
+            "resourceVersion": 110
+          },
+          "userName": "Unnamed",
+          "touchLog": [
+            {
+              "categorias": [
+                "Tutorial",
+                "Lineas",
+                "Lineax1"
+              ],
+              "idResourceTouched": {
+                "id": 27,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "TEST",
+              "soundIdSecuenceInTrial": [
+                27
+              ],
+              "trialInstance": 1441647686825,
+              "touchInstance": 1441647688985,
+              "soundInstance": 1441647686832,
+              "soundRunning": true,
+              "timeLastStopSound": -1,
+              "timeSinceTrialStarts": 2.4601433,
+              "isTrue": true,
+              "trialId": 4,
+              "numberOfSoundLoops": 1
+            }
+          ],
+          "resourcesIdSelected": [
+            {
+              "id": 27,
+              "resourceVersion": 110
+            }
+          ],
+          "resourcesIdSort": [
+            28,
+            25,
+            29,
+            27,
+            23,
+            36
+          ],
+          "tipoDeTrial": "TEST",
+          "soundLog": [
+            {
+              "categorias": [
+                "Tutorial",
+                "Lineas",
+                "Lineax1"
+              ],
+              "tipoDeTrial": "TEST",
+              "soundSecuenceInTrial": [
+                27
+              ],
+              "soundId": {
+                "id": 27,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647686825,
+              "soundInstance": 1441647686832,
+              "numberOfLoop": 1,
+              "stopByExit": true,
+              "stopTime": 3.4737844,
+              "fromStimuli": true,
+              "trialId": 4,
+              "numberOfSoundInTrial": 1
+            }
+          ],
+          "timeExitTrial": 1441647689984,
+          "sessionId": 1441647661921,
+          "userId": 1441647243327,
+          "trialInstance": 1441647686825,
+          "timeTrialStart": 1441647686829,
+          "levelInstance": 1441647664330,
+          "trialExitRecorded": true,
+          "trialId": 4,
+          "timeStopTrialInLevel": 25.681074,
+          "trialsInLevel": 8,
+          "timeStartTrialInLevel": 22.207298,
+          "indexOfTrialInLevel": 3,
+          "timeInTrial": 3.4737844
+        }
+      ],
+      "id": 4
+    },
+    {
+      "history": [
+        {
+          "categoriasElementos": [
+            "Angulo",
+            "Agudo",
+            "Angulo",
+            "Recto",
+            "Angulo",
+            "Grave",
+            "Lineas",
+            "Lineax2",
+            "Paralelas",
+            "Lineas",
+            "Lineax2",
+            "Paralelas",
+            "Lineas",
+            "Lineax2",
+            "NoParalelas"
+          ],
+          "categoriasRta": [
+            "Lineas",
+            "Lineax2",
+            "Paralelas"
+          ],
+          "distribucionEnPantalla": "BILINEALx6",
+          "idRtaCorrecta": {
+            "id": 694,
+            "resourceVersion": 110
+          },
+          "userName": "Unnamed",
+          "touchLog": [
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax2",
+                "Paralelas"
+              ],
+              "idResourceTouched": {
+                "id": 691,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [],
+              "trialInstance": 1441647690313,
+              "touchInstance": 1441647691163,
+              "timeLastStartSound": -1,
+              "timeLastStopSound": -1,
+              "timeSinceTrialStarts": 1.1619142,
+              "trialId": 5
+            },
+            {
+              "categorias": [
+                "Angulo",
+                "Agudo"
+              ],
+              "idResourceTouched": {
+                "id": 49,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                691
+              ],
+              "trialInstance": 1441647690313,
+              "touchInstance": 1441647691412,
+              "soundInstance": 1441647691163,
+              "timeLastStartSound": 1.1619142,
+              "timeLastStopSound": 1.4112366,
+              "timeSinceTrialStarts": 1.4112366,
+              "trialId": 5,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Angulo",
+                "Recto"
+              ],
+              "idResourceTouched": {
+                "id": 55,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                691,
+                49
+              ],
+              "trialInstance": 1441647690313,
+              "touchInstance": 1441647691678,
+              "soundInstance": 1441647691413,
+              "timeLastStartSound": 1.4112366,
+              "timeLastStopSound": 1.6770693,
+              "timeSinceTrialStarts": 1.6770693,
+              "trialId": 5,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Angulo",
+                "Grave"
+              ],
+              "idResourceTouched": {
+                "id": 414,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                691,
+                49,
+                55
+              ],
+              "trialInstance": 1441647690313,
+              "touchInstance": 1441647691927,
+              "soundInstance": 1441647691679,
+              "timeLastStartSound": 1.6770693,
+              "timeLastStopSound": 1.9264346,
+              "timeSinceTrialStarts": 1.9264346,
+              "trialId": 5,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax2",
+                "NoParalelas"
+              ],
+              "idResourceTouched": {
+                "id": 708,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                691,
+                49,
+                55,
+                414
+              ],
+              "trialInstance": 1441647690313,
+              "touchInstance": 1441647692194,
+              "soundInstance": 1441647691928,
+              "timeLastStartSound": 1.9264346,
+              "timeLastStopSound": 2.1928532,
+              "timeSinceTrialStarts": 2.1928532,
+              "trialId": 5,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Angulo",
+                "Agudo"
+              ],
+              "idResourceTouched": {
+                "id": 49,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                691,
+                49,
+                55,
+                414,
+                708
+              ],
+              "trialInstance": 1441647690313,
+              "touchInstance": 1441647692941,
+              "soundInstance": 1441647692194,
+              "timeLastStartSound": 2.1928532,
+              "timeLastStopSound": 2.9416504,
+              "timeSinceTrialStarts": 2.9416504,
+              "trialId": 5,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax2",
+                "NoParalelas"
+              ],
+              "idResourceTouched": {
+                "id": 708,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                691,
+                49,
+                55,
+                414,
+                708,
+                49
+              ],
+              "trialInstance": 1441647690313,
+              "touchInstance": 1441647693191,
+              "soundInstance": 1441647692941,
+              "timeLastStartSound": 2.9416504,
+              "timeLastStopSound": 3.1906247,
+              "timeSinceTrialStarts": 3.1906247,
+              "trialId": 5,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax2",
+                "Paralelas"
+              ],
+              "idResourceTouched": {
+                "id": 694,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                691,
+                49,
+                55,
+                414,
+                708,
+                49,
+                708
+              ],
+              "trialInstance": 1441647690313,
+              "touchInstance": 1441647693507,
+              "soundInstance": 1441647693192,
+              "timeLastStartSound": 3.1906247,
+              "timeLastStopSound": 3.5058708,
+              "timeSinceTrialStarts": 3.5058708,
+              "trialId": 5,
+              "numberOfSoundLoops": 1
+            }
+          ],
+          "resourcesIdSelected": [
+            {
+              "id": 691,
+              "resourceVersion": 110
+            },
+            {
+              "id": 49,
+              "resourceVersion": 110
+            },
+            {
+              "id": 55,
+              "resourceVersion": 110
+            },
+            {
+              "id": 414,
+              "resourceVersion": 110
+            },
+            {
+              "id": 708,
+              "resourceVersion": 110
+            },
+            {
+              "id": 49,
+              "resourceVersion": 110
+            },
+            {
+              "id": 708,
+              "resourceVersion": 110
+            },
+            {
+              "id": 694,
+              "resourceVersion": 110
+            }
+          ],
+          "resourcesIdSort": [
+            694,
+            691,
+            49,
+            708,
+            414,
+            55
+          ],
+          "tipoDeTrial": "ENTRENAMIENTO",
+          "soundLog": [
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax2",
+                "Paralelas"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                691
+              ],
+              "soundId": {
+                "id": 691,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647690313,
+              "soundInstance": 1441647691163,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 1.1619142,
+              "stopByUnselect": true,
+              "stopTime": 1.4112366,
+              "trialId": 5,
+              "numberOfSoundInTrial": 1
+            },
+            {
+              "categorias": [
+                "Angulo",
+                "Agudo"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                691,
+                49
+              ],
+              "soundId": {
+                "id": 49,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647690313,
+              "soundInstance": 1441647691413,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 1.4112366,
+              "stopByUnselect": true,
+              "stopTime": 1.6770693,
+              "trialId": 5,
+              "numberOfSoundInTrial": 2
+            },
+            {
+              "categorias": [
+                "Angulo",
+                "Recto"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                691,
+                49,
+                55
+              ],
+              "soundId": {
+                "id": 55,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647690313,
+              "soundInstance": 1441647691679,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 1.6770693,
+              "stopByUnselect": true,
+              "stopTime": 1.9264346,
+              "trialId": 5,
+              "numberOfSoundInTrial": 3
+            },
+            {
+              "categorias": [
+                "Angulo",
+                "Grave"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                691,
+                49,
+                55,
+                414
+              ],
+              "soundId": {
+                "id": 414,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647690313,
+              "soundInstance": 1441647691928,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 1.9264346,
+              "stopByUnselect": true,
+              "stopTime": 2.1928532,
+              "trialId": 5,
+              "numberOfSoundInTrial": 4
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax2",
+                "NoParalelas"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                691,
+                49,
+                55,
+                414,
+                708
+              ],
+              "soundId": {
+                "id": 708,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647690313,
+              "soundInstance": 1441647692194,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 2.1928532,
+              "stopByUnselect": true,
+              "stopTime": 2.9416504,
+              "trialId": 5,
+              "numberOfSoundInTrial": 5
+            },
+            {
+              "categorias": [
+                "Angulo",
+                "Agudo"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                691,
+                49,
+                55,
+                414,
+                708,
+                49
+              ],
+              "soundId": {
+                "id": 49,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647690313,
+              "soundInstance": 1441647692941,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 2.9416504,
+              "stopByUnselect": true,
+              "stopTime": 3.1906247,
+              "trialId": 5,
+              "numberOfSoundInTrial": 6
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax2",
+                "NoParalelas"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                691,
+                49,
+                55,
+                414,
+                708,
+                49,
+                708
+              ],
+              "soundId": {
+                "id": 708,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647690313,
+              "soundInstance": 1441647693192,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 3.1906247,
+              "stopByUnselect": true,
+              "stopTime": 3.5058708,
+              "trialId": 5,
+              "numberOfSoundInTrial": 7
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax2",
+                "Paralelas"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                691,
+                49,
+                55,
+                414,
+                708,
+                49,
+                708,
+                694
+              ],
+              "soundId": {
+                "id": 694,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647690313,
+              "soundInstance": 1441647693507,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 3.5058708,
+              "stopByExit": true,
+              "stopTime": 3.5058708,
+              "trialId": 5,
+              "numberOfSoundInTrial": 8
+            }
+          ],
+          "timeExitTrial": 1441647693514,
+          "sessionId": 1441647661921,
+          "userId": 1441647243327,
+          "trialInstance": 1441647690313,
+          "timeTrialStart": 1441647690316,
+          "levelInstance": 1441647664330,
+          "trialCompleted": true,
+          "trialExitRecorded": true,
+          "trialId": 5,
+          "timeStopTrialInLevel": 29.186953,
+          "trialsInLevel": 8,
+          "timeStartTrialInLevel": 25.681074,
+          "indexOfTrialInLevel": 4,
+          "timeInTrial": 3.5058708
+        }
+      ],
+      "id": 5
+    },
+    {
+      "history": [
+        {
+          "categoriasElementos": [
+            "Angulo",
+            "Agudo",
+            "Angulo",
+            "Recto",
+            "Angulo",
+            "Grave",
+            "Lineas",
+            "Lineax2",
+            "Paralelas",
+            "Lineas",
+            "Lineax2",
+            "Paralelas",
+            "Lineas",
+            "Lineax2",
+            "NoParalelas"
+          ],
+          "categoriasRta": [
+            "Lineas",
+            "Lineax2",
+            "Paralelas"
+          ],
+          "distribucionEnPantalla": "BILINEALx6",
+          "idRtaCorrecta": {
+            "id": 694,
+            "resourceVersion": 110
+          },
+          "userName": "Unnamed",
+          "touchLog": [
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax2",
+                "Paralelas"
+              ],
+              "idResourceTouched": {
+                "id": 691,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [],
+              "trialInstance": 1441647690313,
+              "touchInstance": 1441647691163,
+              "timeLastStartSound": -1,
+              "timeLastStopSound": -1,
+              "timeSinceTrialStarts": 1.1619142,
+              "trialId": 5
+            },
+            {
+              "categorias": [
+                "Angulo",
+                "Agudo"
+              ],
+              "idResourceTouched": {
+                "id": 49,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                691
+              ],
+              "trialInstance": 1441647690313,
+              "touchInstance": 1441647691412,
+              "soundInstance": 1441647691163,
+              "timeLastStartSound": 1.1619142,
+              "timeLastStopSound": 1.4112366,
+              "timeSinceTrialStarts": 1.4112366,
+              "trialId": 5,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Angulo",
+                "Recto"
+              ],
+              "idResourceTouched": {
+                "id": 55,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                691,
+                49
+              ],
+              "trialInstance": 1441647690313,
+              "touchInstance": 1441647691678,
+              "soundInstance": 1441647691413,
+              "timeLastStartSound": 1.4112366,
+              "timeLastStopSound": 1.6770693,
+              "timeSinceTrialStarts": 1.6770693,
+              "trialId": 5,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Angulo",
+                "Grave"
+              ],
+              "idResourceTouched": {
+                "id": 414,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                691,
+                49,
+                55
+              ],
+              "trialInstance": 1441647690313,
+              "touchInstance": 1441647691927,
+              "soundInstance": 1441647691679,
+              "timeLastStartSound": 1.6770693,
+              "timeLastStopSound": 1.9264346,
+              "timeSinceTrialStarts": 1.9264346,
+              "trialId": 5,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax2",
+                "NoParalelas"
+              ],
+              "idResourceTouched": {
+                "id": 708,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                691,
+                49,
+                55,
+                414
+              ],
+              "trialInstance": 1441647690313,
+              "touchInstance": 1441647692194,
+              "soundInstance": 1441647691928,
+              "timeLastStartSound": 1.9264346,
+              "timeLastStopSound": 2.1928532,
+              "timeSinceTrialStarts": 2.1928532,
+              "trialId": 5,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Angulo",
+                "Agudo"
+              ],
+              "idResourceTouched": {
+                "id": 49,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                691,
+                49,
+                55,
+                414,
+                708
+              ],
+              "trialInstance": 1441647690313,
+              "touchInstance": 1441647692941,
+              "soundInstance": 1441647692194,
+              "timeLastStartSound": 2.1928532,
+              "timeLastStopSound": 2.9416504,
+              "timeSinceTrialStarts": 2.9416504,
+              "trialId": 5,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax2",
+                "NoParalelas"
+              ],
+              "idResourceTouched": {
+                "id": 708,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                691,
+                49,
+                55,
+                414,
+                708,
+                49
+              ],
+              "trialInstance": 1441647690313,
+              "touchInstance": 1441647693191,
+              "soundInstance": 1441647692941,
+              "timeLastStartSound": 2.9416504,
+              "timeLastStopSound": 3.1906247,
+              "timeSinceTrialStarts": 3.1906247,
+              "trialId": 5,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax2",
+                "Paralelas"
+              ],
+              "idResourceTouched": {
+                "id": 694,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                691,
+                49,
+                55,
+                414,
+                708,
+                49,
+                708
+              ],
+              "trialInstance": 1441647690313,
+              "touchInstance": 1441647693507,
+              "soundInstance": 1441647693192,
+              "timeLastStartSound": 3.1906247,
+              "timeLastStopSound": 3.5058708,
+              "timeSinceTrialStarts": 3.5058708,
+              "trialId": 5,
+              "numberOfSoundLoops": 1
+            }
+          ],
+          "resourcesIdSelected": [
+            {
+              "id": 691,
+              "resourceVersion": 110
+            },
+            {
+              "id": 49,
+              "resourceVersion": 110
+            },
+            {
+              "id": 55,
+              "resourceVersion": 110
+            },
+            {
+              "id": 414,
+              "resourceVersion": 110
+            },
+            {
+              "id": 708,
+              "resourceVersion": 110
+            },
+            {
+              "id": 49,
+              "resourceVersion": 110
+            },
+            {
+              "id": 708,
+              "resourceVersion": 110
+            },
+            {
+              "id": 694,
+              "resourceVersion": 110
+            }
+          ],
+          "resourcesIdSort": [
+            694,
+            691,
+            49,
+            708,
+            414,
+            55
+          ],
+          "tipoDeTrial": "ENTRENAMIENTO",
+          "soundLog": [
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax2",
+                "Paralelas"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                691
+              ],
+              "soundId": {
+                "id": 691,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647690313,
+              "soundInstance": 1441647691163,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 1.1619142,
+              "stopByUnselect": true,
+              "stopTime": 1.4112366,
+              "trialId": 5,
+              "numberOfSoundInTrial": 1
+            },
+            {
+              "categorias": [
+                "Angulo",
+                "Agudo"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                691,
+                49
+              ],
+              "soundId": {
+                "id": 49,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647690313,
+              "soundInstance": 1441647691413,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 1.4112366,
+              "stopByUnselect": true,
+              "stopTime": 1.6770693,
+              "trialId": 5,
+              "numberOfSoundInTrial": 2
+            },
+            {
+              "categorias": [
+                "Angulo",
+                "Recto"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                691,
+                49,
+                55
+              ],
+              "soundId": {
+                "id": 55,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647690313,
+              "soundInstance": 1441647691679,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 1.6770693,
+              "stopByUnselect": true,
+              "stopTime": 1.9264346,
+              "trialId": 5,
+              "numberOfSoundInTrial": 3
+            },
+            {
+              "categorias": [
+                "Angulo",
+                "Grave"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                691,
+                49,
+                55,
+                414
+              ],
+              "soundId": {
+                "id": 414,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647690313,
+              "soundInstance": 1441647691928,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 1.9264346,
+              "stopByUnselect": true,
+              "stopTime": 2.1928532,
+              "trialId": 5,
+              "numberOfSoundInTrial": 4
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax2",
+                "NoParalelas"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                691,
+                49,
+                55,
+                414,
+                708
+              ],
+              "soundId": {
+                "id": 708,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647690313,
+              "soundInstance": 1441647692194,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 2.1928532,
+              "stopByUnselect": true,
+              "stopTime": 2.9416504,
+              "trialId": 5,
+              "numberOfSoundInTrial": 5
+            },
+            {
+              "categorias": [
+                "Angulo",
+                "Agudo"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                691,
+                49,
+                55,
+                414,
+                708,
+                49
+              ],
+              "soundId": {
+                "id": 49,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647690313,
+              "soundInstance": 1441647692941,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 2.9416504,
+              "stopByUnselect": true,
+              "stopTime": 3.1906247,
+              "trialId": 5,
+              "numberOfSoundInTrial": 6
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax2",
+                "NoParalelas"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                691,
+                49,
+                55,
+                414,
+                708,
+                49,
+                708
+              ],
+              "soundId": {
+                "id": 708,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647690313,
+              "soundInstance": 1441647693192,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 3.1906247,
+              "stopByUnselect": true,
+              "stopTime": 3.5058708,
+              "trialId": 5,
+              "numberOfSoundInTrial": 7
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax2",
+                "Paralelas"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                691,
+                49,
+                55,
+                414,
+                708,
+                49,
+                708,
+                694
+              ],
+              "soundId": {
+                "id": 694,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647690313,
+              "soundInstance": 1441647693507,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 3.5058708,
+              "stopByExit": true,
+              "stopTime": 3.5058708,
+              "trialId": 5,
+              "numberOfSoundInTrial": 8
+            }
+          ],
+          "timeExitTrial": 1441647693514,
+          "sessionId": 1441647661921,
+          "userId": 1441647243327,
+          "trialInstance": 1441647690313,
+          "timeTrialStart": 1441647690316,
+          "levelInstance": 1441647664330,
+          "trialCompleted": true,
+          "trialExitRecorded": true,
+          "trialId": 5,
+          "timeStopTrialInLevel": 29.186953,
+          "trialsInLevel": 8,
+          "timeStartTrialInLevel": 25.681074,
+          "indexOfTrialInLevel": 4,
+          "timeInTrial": 3.5058708
+        },
+        {
+          "categoriasElementos": [
+            "Lineas",
+            "Lineax1",
+            "Tutorial",
+            "Lineas",
+            "Lineax1",
+            "Tutorial",
+            "Tutorial",
+            "Lineas",
+            "Lineax1",
+            "Tutorial",
+            "Lineas",
+            "Lineax1",
+            "Lineas",
+            "Lineax1",
+            "Tutorial",
+            "Lineas",
+            "Lineax1",
+            "Tutorial",
+            "Lineas",
+            "Lineax1",
+            "Tutorial"
+          ],
+          "categoriasEstimulo": [
+            "Lineas",
+            "Lineax1",
+            "Tutorial"
+          ],
+          "categoriasRta": [
+            "Lineas",
+            "Lineax1",
+            "Tutorial"
+          ],
+          "distribucionEnPantalla": "BILINEALx6",
+          "idRtaCorrecta": {
+            "id": 25,
+            "resourceVersion": 110
+          },
+          "userName": "Unnamed",
+          "resourcesIdSort": [
+            29,
+            23,
+            27,
+            28,
+            36,
+            25
+          ],
+          "tipoDeTrial": "TEST",
+          "timeExitTrial": 1441647693774,
+          "sessionId": 1441647661921,
+          "userId": 1441647243327,
+          "trialInstance": 1441647693770,
+          "timeTrialStart": 1441647693774,
+          "levelInstance": 1441647664330,
+          "trialExitRecorded": true,
+          "trialId": 4,
+          "timeStopTrialInLevel": 29.186953,
+          "trialsInLevel": 8,
+          "timeStartTrialInLevel": 29.186953,
+          "indexOfTrialInLevel": 3
+        }
+      ],
+      "id": 6
+    },
+    {
+      "history": [
+        {
+          "categoriasElementos": [
+            "Angulo",
+            "Agudo",
+            "Angulo",
+            "Recto",
+            "Angulo",
+            "Grave",
+            "Lineas",
+            "Lineax2",
+            "Paralelas",
+            "Lineas",
+            "Lineax2",
+            "Paralelas",
+            "Lineas",
+            "Lineax2",
+            "NoParalelas"
+          ],
+          "categoriasRta": [
+            "Lineas",
+            "Lineax2",
+            "NoParalelas"
+          ],
+          "distribucionEnPantalla": "BILINEALx6",
+          "idRtaCorrecta": {
+            "id": 708,
+            "resourceVersion": 110
+          },
+          "userName": "Unnamed",
+          "touchLog": [
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax2",
+                "Paralelas"
+              ],
+              "idResourceTouched": {
+                "id": 694,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [],
+              "trialInstance": 1441647694601,
+              "touchInstance": 1441647696432,
+              "timeLastStartSound": -1,
+              "timeLastStopSound": -1,
+              "timeSinceTrialStarts": 2.928009,
+              "trialId": 5
+            },
+            {
+              "categorias": [
+                "Angulo",
+                "Agudo"
+              ],
+              "idResourceTouched": {
+                "id": 49,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                694
+              ],
+              "trialInstance": 1441647694601,
+              "touchInstance": 1441647696681,
+              "soundInstance": 1441647696432,
+              "timeLastStartSound": 2.928009,
+              "timeLastStopSound": 3.17442,
+              "timeSinceTrialStarts": 3.17442,
+              "trialId": 5,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Angulo",
+                "Grave"
+              ],
+              "idResourceTouched": {
+                "id": 414,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                694,
+                49
+              ],
+              "trialInstance": 1441647694601,
+              "touchInstance": 1441647696898,
+              "soundInstance": 1441647696681,
+              "timeLastStartSound": 3.17442,
+              "timeLastStopSound": 3.3904479,
+              "timeSinceTrialStarts": 3.3904479,
+              "trialId": 5,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Angulo",
+                "Recto"
+              ],
+              "idResourceTouched": {
+                "id": 55,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                694,
+                49,
+                414
+              ],
+              "trialInstance": 1441647694601,
+              "touchInstance": 1441647697114,
+              "soundInstance": 1441647696898,
+              "timeLastStartSound": 3.3904479,
+              "timeLastStopSound": 3.6067016,
+              "timeSinceTrialStarts": 3.6067016,
+              "trialId": 5,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax2",
+                "NoParalelas"
+              ],
+              "idResourceTouched": {
+                "id": 708,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                694,
+                49,
+                414,
+                55
+              ],
+              "trialInstance": 1441647694601,
+              "touchInstance": 1441647697330,
+              "soundInstance": 1441647697114,
+              "timeLastStartSound": 3.6067016,
+              "timeLastStopSound": 3.8226678,
+              "timeSinceTrialStarts": 3.8226678,
+              "trialId": 5,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax2",
+                "Paralelas"
+              ],
+              "idResourceTouched": {
+                "id": 691,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                694,
+                49,
+                414,
+                55,
+                708
+              ],
+              "trialInstance": 1441647694601,
+              "touchInstance": 1441647697595,
+              "soundInstance": 1441647697330,
+              "timeLastStartSound": 3.8226678,
+              "timeLastStopSound": 4.0887327,
+              "timeSinceTrialStarts": 4.0887327,
+              "trialId": 5,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax2",
+                "Paralelas"
+              ],
+              "idResourceTouched": {
+                "id": 694,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                694,
+                49,
+                414,
+                55,
+                708,
+                691
+              ],
+              "trialInstance": 1441647694601,
+              "touchInstance": 1441647698277,
+              "soundInstance": 1441647697596,
+              "timeLastStartSound": 4.0887327,
+              "timeLastStopSound": 4.7715635,
+              "timeSinceTrialStarts": 4.7715635,
+              "trialId": 5,
+              "numberOfSoundLoops": 1
+            }
+          ],
+          "resourcesIdSelected": [
+            {
+              "id": 694,
+              "resourceVersion": 110
+            },
+            {
+              "id": 49,
+              "resourceVersion": 110
+            },
+            {
+              "id": 414,
+              "resourceVersion": 110
+            },
+            {
+              "id": 55,
+              "resourceVersion": 110
+            },
+            {
+              "id": 708,
+              "resourceVersion": 110
+            },
+            {
+              "id": 691,
+              "resourceVersion": 110
+            },
+            {
+              "id": 694,
+              "resourceVersion": 110
+            }
+          ],
+          "resourcesIdSort": [
+            708,
+            691,
+            694,
+            55,
+            414,
+            49
+          ],
+          "tipoDeTrial": "ENTRENAMIENTO",
+          "soundLog": [
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax2",
+                "Paralelas"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                694
+              ],
+              "soundId": {
+                "id": 694,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647694601,
+              "soundInstance": 1441647696432,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 2.928009,
+              "stopByUnselect": true,
+              "stopTime": 3.17442,
+              "trialId": 5,
+              "numberOfSoundInTrial": 1
+            },
+            {
+              "categorias": [
+                "Angulo",
+                "Agudo"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                694,
+                49
+              ],
+              "soundId": {
+                "id": 49,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647694601,
+              "soundInstance": 1441647696681,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 3.17442,
+              "stopByUnselect": true,
+              "stopTime": 3.3904479,
+              "trialId": 5,
+              "numberOfSoundInTrial": 2
+            },
+            {
+              "categorias": [
+                "Angulo",
+                "Grave"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                694,
+                49,
+                414
+              ],
+              "soundId": {
+                "id": 414,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647694601,
+              "soundInstance": 1441647696898,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 3.3904479,
+              "stopByUnselect": true,
+              "stopTime": 3.6067016,
+              "trialId": 5,
+              "numberOfSoundInTrial": 3
+            },
+            {
+              "categorias": [
+                "Angulo",
+                "Recto"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                694,
+                49,
+                414,
+                55
+              ],
+              "soundId": {
+                "id": 55,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647694601,
+              "soundInstance": 1441647697114,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 3.6067016,
+              "stopByUnselect": true,
+              "stopTime": 3.8226678,
+              "trialId": 5,
+              "numberOfSoundInTrial": 4
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax2",
+                "NoParalelas"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                694,
+                49,
+                414,
+                55,
+                708
+              ],
+              "soundId": {
+                "id": 708,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647694601,
+              "soundInstance": 1441647697330,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 3.8226678,
+              "stopByUnselect": true,
+              "stopTime": 4.0887327,
+              "trialId": 5,
+              "numberOfSoundInTrial": 5
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax2",
+                "Paralelas"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                694,
+                49,
+                414,
+                55,
+                708,
+                691
+              ],
+              "soundId": {
+                "id": 691,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647694601,
+              "soundInstance": 1441647697596,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 4.0887327,
+              "stopByUnselect": true,
+              "stopTime": 4.7715635,
+              "trialId": 5,
+              "numberOfSoundInTrial": 6
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax2",
+                "Paralelas"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                694,
+                49,
+                414,
+                55,
+                708,
+                691,
+                694
+              ],
+              "soundId": {
+                "id": 694,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647694601,
+              "soundInstance": 1441647698277,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 4.7715635,
+              "stopByUnselect": true,
+              "stopTime": 5.719177,
+              "trialId": 5,
+              "numberOfSoundInTrial": 7
+            }
+          ],
+          "timeExitTrial": 1441647699225,
+          "sessionId": 1441647661921,
+          "userId": 1441647243327,
+          "trialInstance": 1441647694601,
+          "timeTrialStart": 1441647694604,
+          "levelInstance": 1441647664330,
+          "trialCompleted": true,
+          "trialExitRecorded": true,
+          "trialId": 5,
+          "timeStopTrialInLevel": 34.906105,
+          "trialsInLevel": 8,
+          "timeStartTrialInLevel": 29.186953,
+          "indexOfTrialInLevel": 4,
+          "timeInTrial": 5.719177
+        }
+      ],
+      "id": 7
+    },
+    {
+      "history": [
+        {
+          "categoriasElementos": [
+            "Angulo",
+            "Agudo",
+            "Angulo",
+            "Agudo",
+            "Angulo",
+            "Recto",
+            "Lineas",
+            "Lineax2",
+            "NoParalelas",
+            "Lineas",
+            "Lineax2",
+            "Paralelas"
+          ],
+          "categoriasEstimulo": [
+            "Angulo",
+            "Agudo"
+          ],
+          "categoriasRta": [
+            "Angulo",
+            "Agudo"
+          ],
+          "distribucionEnPantalla": "BILINEALx4",
+          "idRtaCorrecta": {
+            "id": 49,
+            "resourceVersion": 110
+          },
+          "userName": "Unnamed",
+          "touchLog": [
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax2",
+                "Paralelas"
+              ],
+              "idResourceTouched": {
+                "id": 691,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "TEST",
+              "soundIdSecuenceInTrial": [
+                49
+              ],
+              "trialInstance": 1441647699295,
+              "touchInstance": 1441647701285,
+              "soundInstance": 1441647699301,
+              "soundRunning": true,
+              "timeLastStopSound": -1,
+              "timeSinceTrialStarts": 2.0608523,
+              "trialId": 6,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Lineas",
+                "Lineax2",
+                "NoParalelas"
+              ],
+              "idResourceTouched": {
+                "id": 708,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "TEST",
+              "soundIdSecuenceInTrial": [
+                49
+              ],
+              "trialInstance": 1441647699295,
+              "touchInstance": 1441647701853,
+              "soundInstance": 1441647699301,
+              "soundRunning": true,
+              "timeLastStopSound": -1,
+              "timeSinceTrialStarts": 2.6261714,
+              "trialId": 6,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Angulo",
+                "Agudo"
+              ],
+              "idResourceTouched": {
+                "id": 49,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "TEST",
+              "soundIdSecuenceInTrial": [
+                49
+              ],
+              "trialInstance": 1441647699295,
+              "touchInstance": 1441647702267,
+              "soundInstance": 1441647699301,
+              "soundRunning": true,
+              "timeLastStopSound": -1,
+              "timeSinceTrialStarts": 3.0420344,
+              "isTrue": true,
+              "trialId": 6,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Angulo",
+                "Recto"
+              ],
+              "idResourceTouched": {
+                "id": 55,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "TEST",
+              "soundIdSecuenceInTrial": [
+                49
+              ],
+              "trialInstance": 1441647699295,
+              "touchInstance": 1441647702683,
+              "soundInstance": 1441647699301,
+              "soundRunning": true,
+              "timeLastStopSound": -1,
+              "timeSinceTrialStarts": 3.4577324,
+              "trialId": 6,
+              "numberOfSoundLoops": 1
+            }
+          ],
+          "resourcesIdSelected": [
+            {
+              "id": 691,
+              "resourceVersion": 110
+            },
+            {
+              "id": 708,
+              "resourceVersion": 110
+            },
+            {
+              "id": 49,
+              "resourceVersion": 110
+            },
+            {
+              "id": 55,
+              "resourceVersion": 110
+            }
+          ],
+          "resourcesIdSort": [
+            691,
+            55,
+            708,
+            49
+          ],
+          "tipoDeTrial": "TEST",
+          "soundLog": [
+            {
+              "categorias": [
+                "Angulo",
+                "Agudo"
+              ],
+              "tipoDeTrial": "TEST",
+              "soundSecuenceInTrial": [
+                49
+              ],
+              "soundId": {
+                "id": 49,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647699295,
+              "soundInstance": 1441647699301,
+              "numberOfLoop": 1,
+              "stopByExit": true,
+              "stopTime": 4.471123,
+              "fromStimuli": true,
+              "trialId": 6,
+              "numberOfSoundInTrial": 1
+            }
+          ],
+          "timeExitTrial": 1441647703680,
+          "sessionId": 1441647661921,
+          "userId": 1441647243327,
+          "trialInstance": 1441647699295,
+          "timeTrialStart": 1441647699299,
+          "levelInstance": 1441647664330,
+          "trialExitRecorded": true,
+          "trialId": 6,
+          "timeStopTrialInLevel": 39.377216,
+          "trialsInLevel": 8,
+          "timeStartTrialInLevel": 34.906105,
+          "indexOfTrialInLevel": 5,
+          "timeInTrial": 4.471123
+        }
+      ],
+      "id": 8
+    },
+    {
+      "history": [
+        {
+          "categoriasElementos": [
+            "Cuadrilatero",
+            "Cuadrado",
+            "Cuadrilatero",
+            "Rombo",
+            "Cuadrilatero",
+            "Cuadrado",
+            "Cuadrilatero",
+            "Rombo"
+          ],
+          "categoriasRta": [
+            "Cuadrilatero",
+            "Cuadrado"
+          ],
+          "distribucionEnPantalla": "BILINEALx4",
+          "idRtaCorrecta": {
+            "id": 750,
+            "resourceVersion": 110
+          },
+          "userName": "Unnamed",
+          "touchLog": [
+            {
+              "categorias": [
+                "Cuadrilatero",
+                "Cuadrado"
+              ],
+              "idResourceTouched": {
+                "id": 750,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [],
+              "trialInstance": 1441647703809,
+              "touchInstance": 1441647704917,
+              "timeLastStartSound": -1,
+              "timeLastStopSound": -1,
+              "timeSinceTrialStarts": 1.2133485,
+              "trialId": 7
+            },
+            {
+              "categorias": [
+                "Cuadrilatero",
+                "Rombo"
+              ],
+              "idResourceTouched": {
+                "id": 748,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                750
+              ],
+              "trialInstance": 1441647703809,
+              "touchInstance": 1441647705159,
+              "soundInstance": 1441647704917,
+              "timeLastStartSound": 1.2133485,
+              "timeLastStopSound": 1.4624759,
+              "timeSinceTrialStarts": 1.4624759,
+              "trialId": 7,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Cuadrilatero",
+                "Cuadrado"
+              ],
+              "idResourceTouched": {
+                "id": 742,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                750,
+                748
+              ],
+              "trialInstance": 1441647703809,
+              "touchInstance": 1441647705492,
+              "soundInstance": 1441647705159,
+              "timeLastStartSound": 1.4624759,
+              "timeLastStopSound": 1.7951602,
+              "timeSinceTrialStarts": 1.7951602,
+              "trialId": 7,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Cuadrilatero",
+                "Rombo"
+              ],
+              "idResourceTouched": {
+                "id": 757,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                750,
+                748,
+                742
+              ],
+              "trialInstance": 1441647703809,
+              "touchInstance": 1441647705873,
+              "soundInstance": 1441647705492,
+              "timeLastStartSound": 1.7951602,
+              "timeLastStopSound": 2.176539,
+              "timeSinceTrialStarts": 2.176539,
+              "trialId": 7,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Cuadrilatero",
+                "Cuadrado"
+              ],
+              "idResourceTouched": {
+                "id": 750,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                750,
+                748,
+                742,
+                757
+              ],
+              "trialInstance": 1441647703809,
+              "touchInstance": 1441647706705,
+              "soundInstance": 1441647705873,
+              "timeLastStartSound": 2.176539,
+              "timeLastStopSound": 3.0087416,
+              "timeSinceTrialStarts": 3.0087416,
+              "trialId": 7,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Cuadrilatero",
+                "Rombo"
+              ],
+              "idResourceTouched": {
+                "id": 748,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                750,
+                748,
+                742,
+                757,
+                750
+              ],
+              "trialInstance": 1441647703809,
+              "touchInstance": 1441647707074,
+              "soundInstance": 1441647706705,
+              "timeLastStartSound": 3.0087416,
+              "timeLastStopSound": 3.373506,
+              "timeSinceTrialStarts": 3.373506,
+              "trialId": 7,
+              "numberOfSoundLoops": 1
+            },
+            {
+              "categorias": [
+                "Cuadrilatero",
+                "Cuadrado"
+              ],
+              "idResourceTouched": {
+                "id": 742,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundIdSecuenceInTrial": [
+                750,
+                748,
+                742,
+                757,
+                750,
+                748
+              ],
+              "trialInstance": 1441647703809,
+              "touchInstance": 1441647707453,
+              "soundInstance": 1441647707074,
+              "timeLastStartSound": 3.373506,
+              "timeLastStopSound": 3.7555246,
+              "timeSinceTrialStarts": 3.7555246,
+              "trialId": 7,
+              "numberOfSoundLoops": 1
+            }
+          ],
+          "resourcesIdSelected": [
+            {
+              "id": 750,
+              "resourceVersion": 110
+            },
+            {
+              "id": 748,
+              "resourceVersion": 110
+            },
+            {
+              "id": 742,
+              "resourceVersion": 110
+            },
+            {
+              "id": 757,
+              "resourceVersion": 110
+            },
+            {
+              "id": 750,
+              "resourceVersion": 110
+            },
+            {
+              "id": 748,
+              "resourceVersion": 110
+            },
+            {
+              "id": 742,
+              "resourceVersion": 110
+            }
+          ],
+          "resourcesIdSort": [
+            748,
+            742,
+            750,
+            757
+          ],
+          "tipoDeTrial": "ENTRENAMIENTO",
+          "soundLog": [
+            {
+              "categorias": [
+                "Cuadrilatero",
+                "Cuadrado"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                750
+              ],
+              "soundId": {
+                "id": 750,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647703809,
+              "soundInstance": 1441647704917,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 1.2133485,
+              "stopByUnselect": true,
+              "stopTime": 1.4624759,
+              "trialId": 7,
+              "numberOfSoundInTrial": 1
+            },
+            {
+              "categorias": [
+                "Cuadrilatero",
+                "Rombo"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                750,
+                748
+              ],
+              "soundId": {
+                "id": 748,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647703809,
+              "soundInstance": 1441647705159,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 1.4624759,
+              "stopByUnselect": true,
+              "stopTime": 1.7951602,
+              "trialId": 7,
+              "numberOfSoundInTrial": 2
+            },
+            {
+              "categorias": [
+                "Cuadrilatero",
+                "Cuadrado"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                750,
+                748,
+                742
+              ],
+              "soundId": {
+                "id": 742,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647703809,
+              "soundInstance": 1441647705492,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 1.7951602,
+              "stopByUnselect": true,
+              "stopTime": 2.176539,
+              "trialId": 7,
+              "numberOfSoundInTrial": 3
+            },
+            {
+              "categorias": [
+                "Cuadrilatero",
+                "Rombo"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                750,
+                748,
+                742,
+                757
+              ],
+              "soundId": {
+                "id": 757,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647703809,
+              "soundInstance": 1441647705873,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 2.176539,
+              "stopByUnselect": true,
+              "stopTime": 3.0087416,
+              "trialId": 7,
+              "numberOfSoundInTrial": 4
+            },
+            {
+              "categorias": [
+                "Cuadrilatero",
+                "Cuadrado"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                750,
+                748,
+                742,
+                757,
+                750
+              ],
+              "soundId": {
+                "id": 750,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647703809,
+              "soundInstance": 1441647706705,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 3.0087416,
+              "stopByUnselect": true,
+              "stopTime": 3.373506,
+              "trialId": 7,
+              "numberOfSoundInTrial": 5
+            },
+            {
+              "categorias": [
+                "Cuadrilatero",
+                "Rombo"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                750,
+                748,
+                742,
+                757,
+                750,
+                748
+              ],
+              "soundId": {
+                "id": 748,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647703809,
+              "soundInstance": 1441647707074,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 3.373506,
+              "stopByUnselect": true,
+              "stopTime": 3.7555246,
+              "trialId": 7,
+              "numberOfSoundInTrial": 6
+            },
+            {
+              "categorias": [
+                "Cuadrilatero",
+                "Cuadrado"
+              ],
+              "tipoDeTrial": "ENTRENAMIENTO",
+              "soundSecuenceInTrial": [
+                750,
+                748,
+                742,
+                757,
+                750,
+                748,
+                742
+              ],
+              "soundId": {
+                "id": 742,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647703809,
+              "soundInstance": 1441647707453,
+              "numberOfLoop": 1,
+              "startTimeSinceTrial": 3.7555246,
+              "stopByUnselect": true,
+              "stopTime": 4.5213437,
+              "trialId": 7,
+              "numberOfSoundInTrial": 7
+            }
+          ],
+          "timeExitTrial": 1441647708217,
+          "sessionId": 1441647661921,
+          "userId": 1441647243327,
+          "trialInstance": 1441647703809,
+          "timeTrialStart": 1441647703811,
+          "levelInstance": 1441647664330,
+          "trialCompleted": true,
+          "trialExitRecorded": true,
+          "trialId": 7,
+          "timeStopTrialInLevel": 43.898525,
+          "trialsInLevel": 8,
+          "timeStartTrialInLevel": 39.377216,
+          "indexOfTrialInLevel": 6,
+          "timeInTrial": 4.5213437
+        }
+      ],
+      "id": 9
+    },
+    {
+      "history": [
+        {
+          "categoriasElementos": [
+            "Cuadrilatero",
+            "Cuadrado",
+            "Cuadrilatero",
+            "Texto",
+            "Lineax2",
+            "Texto",
+            "Rombo",
+            "Texto",
+            "Cuadrado",
+            "Texto"
+          ],
+          "categoriasEstimulo": [
+            "Cuadrilatero",
+            "Cuadrado"
+          ],
+          "categoriasRta": [
+            "Cuadrilatero",
+            "Cuadrado"
+          ],
+          "distribucionEnPantalla": "BILINEALx4",
+          "idRtaCorrecta": {
+            "id": 753,
+            "resourceVersion": 110
+          },
+          "userName": "Unnamed",
+          "touchLog": [
+            {
+              "categorias": [
+                "Cuadrado",
+                "Texto"
+              ],
+              "idResourceTouched": {
+                "id": 17,
+                "resourceVersion": 110
+              },
+              "tipoDeTrial": "TEST",
+              "soundIdSecuenceInTrial": [
+                753
+              ],
+              "trialInstance": 1441647708285,
+              "touchInstance": 1441647709584,
+              "soundInstance": 1441647708288,
+              "soundRunning": true,
+              "timeLastStopSound": -1,
+              "timeSinceTrialStarts": 1.36178,
+              "isTrue": true,
+              "trialId": 8,
+              "numberOfSoundLoops": 1
+            }
+          ],
+          "resourcesIdSelected": [
+            {
+              "id": 17,
+              "resourceVersion": 110
+            }
+          ],
+          "resourcesIdSort": [
+            7,
+            17,
+            16,
+            18
+          ],
+          "tipoDeTrial": "TEST",
+          "soundLog": [
+            {
+              "categorias": [
+                "Cuadrilatero",
+                "Cuadrado"
+              ],
+              "tipoDeTrial": "TEST",
+              "soundSecuenceInTrial": [
+                753
+              ],
+              "soundId": {
+                "id": 753,
+                "resourceVersion": 110
+              },
+              "trialInstance": 1441647708285,
+              "soundInstance": 1441647708288,
+              "numberOfLoop": 1,
+              "stopByExit": true,
+              "stopTime": 2.3767827,
+              "fromStimuli": true,
+              "trialId": 8,
+              "numberOfSoundInTrial": 1
+            }
+          ],
+          "timeExitTrial": 1441647710585,
+          "sessionId": 1441647661921,
+          "userId": 1441647243327,
+          "trialInstance": 1441647708285,
+          "timeTrialStart": 1441647708287,
+          "levelInstance": 1441647664330,
+          "trialExitRecorded": true,
+          "trialId": 8,
+          "timeStopTrialInLevel": 46.275295,
+          "trialsInLevel": 8,
+          "timeStartTrialInLevel": 43.898525,
+          "indexOfTrialInLevel": 7,
+          "timeInTrial": 2.3767827
+        }
+      ],
+      "id": 10
+    }
+  ],
+  "LevelLogHistory": [
+    {
+      "history": [
+        {
+          "userName": "Unnamed",
+          "trialsVisited": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "sortOfTrials": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "levelCompleted": true,
+          "timeStarts": 1441647664330,
+          "levelInstance": 1441647664330,
+          "timeExit": 1441647710633,
+          "sessionId": 1441647661921,
+          "idUser": 1441647243327,
+          "levelLength": 8,
+          "levelId": 1,
+          "exitTrialPosition": 7,
+          "exitTrialId": 8
+        }
+      ],
+      "id": 1
+    }
+  ]
+}

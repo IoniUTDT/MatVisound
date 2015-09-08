@@ -5,7 +5,7 @@ function SelectSesion()
 clear all
 
 load('dbProcesada')
-idSession=logsInstances(23).id;
+idSession=logsInstances(length(logsInstances)).id;
 disp(['Session correspondiente a la fecha ',f(idSession)])
 %% Busca la info del usuario y los levels asociados a esa sesion
 
@@ -27,11 +27,13 @@ levelDrawAltura = 7;
 levelDrawAlto=1;
 trialDrawAltura = 5;
 trialDrawAlto = 1;
+soundDrawAltura = 1;
+soundDrawAlto = 0.5;
 
 close all
 figure
 hold on
-axis([(d(t_inicial) - 1/(24*60)) (d(t_final) + 1/(24*60)) 0 10]);
+axis([(d(t_inicial) - 10/(24*60*3)) (d(t_final) + 10/(24*60*3)) 0 10]);
 datetick('x','keepticks')
 
 %% Graficamos los levels
@@ -58,21 +60,16 @@ end
 
 %% Graficamos los trials
 
+yt=1;
+ys=3;
 for iTrial=1:length(trials)
     trial = trials(iTrial); % Carga el trial a procesar
     % Aca hay un parche para analizar los datos porque no me esta andando
     % el server. En el futuro la info deberia estar limpia en la base de
     % datos con marcas temporales absolutas
-    if isempty(trial.timeInGame)
-        disp (['Tiempo de inicio del trial ',int2str(trial.trialId),' invalido'])
-        continue
-    end
-    if isempty(trial.timeInTrial)
-        disp (['Tiempo de duracion del trial ',int2str(trial.trialId),' invalido'])
-        continue
-    end
-    t_entrada = trial.timeInGame / 1000 + trial.sessionId;
-    t_salida = trial.timeInTrial * 1000 + t_entrada;
+    
+    t_entrada = trial.timeTrialStart;
+    t_salida = trial.timeExitTrial;
     
     pos=[d(t_entrada) trialDrawAltura (d(t_salida)-d(t_entrada)) trialDrawAlto];
     if (strcmp(trial.tipoDeTrial,'TEST'))
@@ -83,18 +80,54 @@ for iTrial=1:length(trials)
     rectangle('Position',pos,'FaceColor',color,'EdgeColor',color)
     x = (d(t_salida)+d(t_entrada))/2;
     y = trialDrawAltura + trialDrawAlto /2;
-    texto = ['Trial: ', int2str(trial.trialId)];
+    texto = [int2str(trial.trialId)];
     text(x,y,texto,'HorizontalAlignment','center');
    
     %% Graficamos los touchs para este trial
     touchs = touchInstances([touchInstances.trialInstance]==trial.trialInstance);
     disp (['Se han encontrado ',int2str(length(touchs)),' toques para procesar en la instancia de trial ',f(trial.trialInstance),' trial id: ',int2str(trial.trialId)])
-    
+
     for iTouch=1:length(touchs)
         touch=touchs(iTouch);
+        
+        if (touch.isTrue)
+            color='g';
+        else
+            color='r';
+        end
+        
+        if (strcmp(touch.tipoDeTrial,'ENTRENAMIENTO'))
+            color='y';
+        end
+        
+        line([d(touch.touchInstance),d(touch.touchInstance)],[1,2],'Color',color)
+        texto = [int2str(touch.idResourceTouched.id)];
+        text(d(touch.touchInstance),yt,texto,'HorizontalAlignment','center');
+        yt=yt+0.2;
+        if yt>2
+            yt=1;
+        end
     end
     
-    %% 
+    %% Graficamos los sounds para este trial
+    sounds = soundInstances([soundInstances.trialInstance]==trial.trialInstance);
+    disp (['Se han encontrado ',int2str(length(sounds)),' sonidos para procesar en la instancia de trial ',f(trial.trialInstance),' trial id: ',int2str(trial.trialId)])
     
+    for iSound=1:length(sounds)
+        sound=sounds(iSound);
+        
+        %pos=[d(sound.soundInstance) soundDrawAltura (d(sound.stopTime)-d(sound.soundInstance)) soundDrawAlto];
+        %color='y';
+        %rectangle('Position',pos,'FaceColor',color,'EdgeColor',color)
+        %x = (d(sound.stopTime)+d(sound.stopTime))/2;
+        
+        line([d(sound.soundInstance),d(sound.soundInstance)],[3,4])
+        texto = int2str(sound.soundId.id);
+        text(d(sound.soundInstance),ys,texto,'HorizontalAlignment','center');
+        ys=ys+0.2;
+        if ys>4
+            ys=3;
+        end
+    end
 end
 

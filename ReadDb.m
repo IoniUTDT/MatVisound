@@ -28,20 +28,10 @@
 % datos, los limpia de esta informacion innecesaria. 
 
 
-function ReadDb(opt1)
+function ReadDb()
 
-    if nargin < 1
-        opt1 =   'db.json';
-    end
-    
-    if exist('db.mat', 'file')
-        load ('db.mat')
-    else
-        db = loadjson(opt1);
-    end
-    
-    save ('db.mat','db');
-    
+    db = loadjson('db.json');
+
     % Se encarga de la parte de los logueos
     
     %inicializa el variable cargando el primero y el ultimo para reservar
