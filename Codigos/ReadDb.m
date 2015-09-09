@@ -103,24 +103,6 @@ function ReadDb()
         end
     end 
 
-    %% Ahora unificamos registros donde hay un usuario repetido
-    
-%     No esta muy claro que esto sea util.
-%     
-%     USERSunificados = struct([]);
-%     listaUsuariosId=unique([USERS.userID]);
-%     Crea la lista de usuarios
-%     for i=1:length(listaUsuariosId)
-%         USERSunificados(i).Id=listaUsuariosId(i);
-%     end
-%     %% Carga los id de la sessiones
-%     USERSunificados(1).SessionsIds = [];
-%     for i=1:length(USERSunificados)
-%         index = USERSunificados(i).Id==[USERS.userID];
-%         USERSunificados(i).SessionsIds = [USERS(index).id];
-%     end
-%     
-%     
     %% Limpia y unifica la info de levels
     
     levelsInstances = struct;
