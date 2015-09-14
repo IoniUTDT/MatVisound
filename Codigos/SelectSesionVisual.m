@@ -5,11 +5,11 @@ function SelectSesion()
 clear all
 
 load('dbProcesada')
-idSession=logsInstances(length(logsInstances)).id;
+idSession=sessionInstances(length(sessionInstances)-3).id;
 disp(['Session correspondiente a la fecha ',f(idSession)])
 %% Busca la info del usuario y los levels asociados a esa sesion
 
-user = unique([logsInstances([logsInstances.id]==idSession).userID]); % Busca el id del usuario
+user = unique([sessionInstances([sessionInstances.id]==idSession).userID]); % Busca el id del usuario
 levels = levelsInstances([levelsInstances.sessionId]==idSession); % Selecciona los logs de levels asociados a la session
 trials = trialsInstances([trialsInstances.sessionId]==idSession); % Selecciona 
 
@@ -34,7 +34,7 @@ close all
 figure
 hold on
 axis([(d(t_inicial) - 1/(24*60*3)) (d(t_final) + 1/(24*60*3)) 0 10]);
-title ('Ioni test inicial + test inicial dificil')
+%title ('Ioni test inicial + test inicial dificil')
 datetick('x','keepticks')
 
 %% Graficamos los levels

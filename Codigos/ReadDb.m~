@@ -93,7 +93,7 @@ function ReadDb()
         unlog=dbLimpia.sessiones{indlog};
         fnames=fieldnames(unlog);
         for indfn=1:length(fnames)
-            sessionInstances(indlog).(fnames{indfn})=unlog.(fnames{indfn});
+            logsInstances(indlog).(fnames{indfn})=unlog.(fnames{indfn});
         end
     end 
 
@@ -125,7 +125,7 @@ function ReadDb()
         end
     end 
     
-    % Repite la operacion para leer dentro de cada info del trial la info de los toques y los sounds
+    %% Repite la operacion para leer dentro de cada info del trial la info de los toques y los sounds
     for indTrialLog=1:length(trialsInstances)
         % carga los toques en el registro de toques
         for indTouchLog=1:length(trialsInstances(indTrialLog).touchLog)
@@ -147,10 +147,11 @@ function ReadDb()
         end
     end
     
-   
+    
+    
     
     %% Guarda los datos relevantes
-    save ('dbProcesada', 'sessionInstances', 'levelsInstances', 'touchInstances', 'soundInstances', 'trialsInstances')    
+    save ('dbProcesada', 'logsInstances', 'levelsInstances', 'touchInstances', 'soundInstances', 'trialsInstances')    
 
     
     

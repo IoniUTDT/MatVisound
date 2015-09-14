@@ -30,74 +30,80 @@
 
 function ReadDb()
 
-    
-    cd ('/home/ionatan/Matlab/Datos')
-    if exist(fullfile('/home/ionatan/Matlab/Datos', 'db.json'), 'file')
-        movefile('db.json',['db.json archivado: ',datestr(now)]);
-    end
-    url = 'http://turintur.dynu.com/db';
-    filename = 'db.json';
-    websave(filename,url);
     db = loadjson('db.json');
 
-    %% Se encarga de filtrar los datos 
+    % Se encarga de la parte de los logueos
     
-    % Carga los logueos
-    sessiones = db.SessionEnviables(1,:);
+    %inicializa el variable cargando el primero y el ultimo para reservar
+    %el espacio necesario
+    logueos = db.JsonSessionHistory{1}.history(1);
+    last=0;
+    for i=1:length(db.JsonSessionHistory)
+        last = last + length(db.JsonSessionHistory{i}.history);
+    end
+    logueos(last) = db.JsonSessionHistory{length(db.JsonSessionHistory)}.history(length(db.JsonSessionHistory{length(db.JsonSessionHistory)}.history));
+    last=0;
+    for i=1:length(db.JsonSessionHistory)
+        for j=1:length(db.JsonSessionHistory{i}.history)
+            last=last+1;
+            logueos(last)=db.JsonSessionHistory{i}.history(j);
+        end
+    end
     
-    % Carga los levels
-    levels = db.LevelEnviables(1,:);
+    % Se encarga de la parte de los levels
+    levels = db.LevelLogHistory{1}.history(1);
+    last=0;
+    for i=1:length(db.LevelLogHistory)
+        last = last + length(db.LevelLogHistory{i}.history);
+    end
+    levels(last) = db.LevelLogHistory{length(db.LevelLogHistory)}.history(length(db.LevelLogHistory{length(db.LevelLogHistory)}.history));
+    last=0;
+    for i=1:length(db.LevelLogHistory)
+        for j=1:length(db.LevelLogHistory{i}.history)
+            last=last+1;
+            levels(last)=db.LevelLogHistory{i}.history(j);
+        end
+    end
     
-    % Carga los trials
-    trials = db.TrialEnviables(1,:);
+    % Se encarga de la parte de los trials
+    trials = db.TrialLogHistory{1}.history(1);
+    last=0;
+    for i=1:length(db.TrialLogHistory)
+        last = last + length(db.TrialLogHistory{i}.history);
+    end
+    trials(last) = db.TrialLogHistory{length(db.TrialLogHistory)}.history(length(db.TrialLogHistory{length(db.TrialLogHistory)}.history));
+    last=0;
+    for i=1:length(db.TrialLogHistory)
+        for j=1:length(db.TrialLogHistory{i}.history)
+            last=last+1;
+            trials(last)=db.TrialLogHistory{i}.history(j);
+        end
+    end
     
     dbLimpia = struct;
-    
-    elementos=0;
-    for i=1:length(sessiones)
-        session=sessiones{i};
-        for j=1:length(session)
-            elementos=elementos+1;
-            dbLimpia.sessiones(elementos) = session (j);
-        end
-    end
-    
-    elementos=0;
-    for i=1:length(levels)
-        level=levels{i};
-        for j=1:length(level)
-            elementos=elementos+1;
-            dbLimpia.levels(elementos) = level (j);
-        end
-    end
-    
-    elementos=0;
-    for i=1:length(trials)
-        trial=trials{i};
-        for j=1:length(trial)
-            elementos=elementos+1;
-            dbLimpia.trials(elementos) = trial (j);
-        end
-    end
-    
+    dbLimpia.logs = logueos;
+    dbLimpia.levels = levels;
+    dbLimpia.trials = trials;
     
     %% A partir de aca ordena la info de la base de datos en una estructura organizada tipo tabla separando users levels y trials
     
-    % Creamos la estructura de los logs de Session
-    sessionInstances = struct;
+    levelsInstances.idUser=struct([]);
     
-    % revisamos todos los registros y copiamos los datos que correspondan.
-    % Automaticamente en la entradas que no tienen datos de completa con
-    % datos en blanco.
-    for indlog=1:length(dbLimpia.sessiones)
-        unlog=dbLimpia.sessiones{indlog};
+    % Primero procesa la info en los logs donde esta la info de los
+    % usuarios para crear todas las entradas que correspondan
+    
+    % Primero estandarizamos la info de los logs completando con espacios
+    % blancos donde no hay datos.
+    
+    for indlog=1:length(dbLimpia.logs)
+        unlog=dbLimpia.logs{indlog};
         fnames=fieldnames(unlog);
         for indfn=1:length(fnames)
-            sessionInstances(indlog).(fnames{indfn})=unlog.(fnames{indfn});
+            logsInstances(indlog).(fnames{indfn})=unlog.(fnames{indfn});
         end
     end 
 
-    % Limpia y unifica la info de levels
+    %% Limpia y unifica la info de levels
     
     levelsInstances = struct;
     
@@ -109,7 +115,7 @@ function ReadDb()
         end
     end 
 
-    % Limpia y unifica la info de trials
+    %% Limpia y unifica la info de trials
     
     trialsInstances = struct;
     touchInstances = struct;
@@ -125,7 +131,7 @@ function ReadDb()
         end
     end 
     
-    % Repite la operacion para leer dentro de cada info del trial la info de los toques y los sounds
+    %% Repite la operacion para leer dentro de cada info del trial la info de los toques y los sounds
     for indTrialLog=1:length(trialsInstances)
         % carga los toques en el registro de toques
         for indTouchLog=1:length(trialsInstances(indTrialLog).touchLog)
@@ -147,10 +153,11 @@ function ReadDb()
         end
     end
     
-   
+    
+    
     
     %% Guarda los datos relevantes
-    save ('dbProcesada', 'sessionInstances', 'levelsInstances', 'touchInstances', 'soundInstances', 'trialsInstances')    
+    save ('dbProcesada', 'logsInstances', 'levelsInstances', 'touchInstances', 'soundInstances', 'trialsInstances')    
 
     
     
