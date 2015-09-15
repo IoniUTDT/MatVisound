@@ -5,7 +5,7 @@ function SelectSesion()
 clear all
 
 load('dbProcesada')
-idSession=sessionInstances(length(sessionInstances)-3).id;
+idSession=sessionInstances(length(sessionInstances)).id;
 disp(['Session correspondiente a la fecha ',f(idSession)])
 %% Busca la info del usuario y los levels asociados a esa sesion
 

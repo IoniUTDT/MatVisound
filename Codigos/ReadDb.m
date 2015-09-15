@@ -32,12 +32,18 @@ function ReadDb()
 
     
     cd ('/home/ionatan/Matlab/Datos')
-    if exist(fullfile('/home/ionatan/Matlab/Datos', 'db.json'), 'file')
-        movefile('db.json',['db.json archivado: ',datestr(now)]);
+    
+    try
+        url = 'http://turintur.dynu.com/db';
+        filename = 'dbDownload.json';
+        websave(filename,url);
+        if exist(fullfile('/home/ionatan/Matlab/Datos', 'db.json'), 'file')
+            movefile('db.json',['db.json archivado: ',datestr(now)]);
+        end
+        movefile('dbDownload.json','db.json');
+    catch 
+        disp ('No se pudo actualizar el archivo')
     end
-    url = 'http://turintur.dynu.com/db';
-    filename = 'db.json';
-    websave(filename,url);
     db = loadjson('db.json');
 
     %% Se encarga de filtrar los datos 
