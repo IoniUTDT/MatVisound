@@ -5,7 +5,7 @@ function SelectSesion()
 clear all
 
 load('dbProcesada')
-idSession=sessionInstances(length(sessionInstances)).id;
+idSession=sessionInstances(length(sessionInstances)-0).id;
 disp(['Session correspondiente a la fecha ',f(idSession)])
 %% Busca la info del usuario y los levels asociados a esa sesion
 
@@ -33,7 +33,7 @@ soundDrawAlto = 0.5;
 close all
 figure
 hold on
-axis([(d(t_inicial) - 1/(24*60*3)) (d(t_final) + 1/(24*60*3)) 0 10]);
+axis([(d(t_inicial) - 2/(24*60*3)) (d(t_final) + 2/(24*60*3)) 0 10]);
 %title ('Ioni test inicial + test inicial dificil')
 datetick('x','keepticks')
 
